@@ -11,7 +11,11 @@
       - [HTML](#html)
       - [CSS](#css)
       - [Javascript](#javascript)
-
+ - [Processo](#processo)
+      - [Projetado](#projetado)
+      - [Aprendizado](#aprendizado)
+- [Autor](#autor)
+      - [link]
 
 
 
@@ -50,6 +54,30 @@
 <img align="center" src="imagens projeto/CSS.png" width="900px"/>
 
 ### javascript
+
+<p>Code Javascript</p>
+<img align="center" src="imagens projeto/Javascript.png" width="900px"/>
+
+## Processo
+
+### projetado
+
+- HTML semãntico;
+- Prioridades do CSS;
+- Flexbox;
+- Funções Javascript;
+- contagem regressiva.
+
+### aprendizado
+
+🟢 Validar formulário de login simples; <br>
+🟢 contagem regressiva. <br>
+
+## Autor
+
+### autor
+
+- [LinkedIn](https://www.linkedin.com/in/PatirckCaramico/)
 
 
 
