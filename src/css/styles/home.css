@@ -1,0 +1,85 @@
+.container__geral {
+    min-height: calc(100vh - 100px);
+    background: var(--Cor-fundo2);
+}
+
+.right-login{
+    /* width: 50vh; */
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+.left-login-image{
+    width: 39rem;
+    position: absolute;
+    left: 60px;
+}
+
+.container__home {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+}
+
+.container__home > h2 {
+    text-align: center;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+    padding: 10px;
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+.btn-login {
+    background-image: linear-gradient(to right, rgb(0, 92,197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
