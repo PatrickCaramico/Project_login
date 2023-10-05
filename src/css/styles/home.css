@@ -83,3 +83,32 @@ legend {
     cursor: pointer;
     border-radius: 10px;
 }
+
+@media (max-width: 800px) {
+    .container__geral {
+        min-height: auto;
+        padding: 20px; /* Aumente o preenchimento para dispositivos móveis */
+    }
+
+    .right-login {
+        flex-direction: column; /* Coluna em vez de linha para dispositivos móveis */
+        align-items: center;
+    }
+
+    .left-login-image {
+        width: 100%; /* Use a largura máxima para dispositivos móveis */
+        position: static; /* Remova a posição absoluta */
+    }
+
+    .container__home {
+        position: static; /* Remova a posição absoluta */
+        width: 100%; /* Use a largura máxima */
+        right: auto; /* Remova o alinhamento à direita */
+        padding: 20px; /* Aumente o preenchimento para dispositivos móveis */
+        top: auto; /* Remova a posição superior */
+    }
+
+    fieldset {
+        padding: 15px; /* Ajuste o preenchimento */
+    }
+}
