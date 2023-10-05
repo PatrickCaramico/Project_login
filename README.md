@@ -2,7 +2,7 @@
 
 <p>Login screen project with countdown..</p>
 
-## Conteudo do Readme: 
+## Readme Contents: 
  - [Summary](#summary)
      - [About the project](#about)
      - [Screenshot](#screenshot)
