@@ -5,61 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
-
     <link rel="shortcut icon" href="./src/img/backpack2.svg" type="backpack/icon">
-    <title>Sistema Aplha</title>
-
+    <title>Sistema V2</title>
 </head>
 <body>
-    
     <div class="container__geral">
         <header class="cabecalho">
-            <h2 class="cabecalho__titulo">Sistema | V2</h2>
+            <h2 class="cabecalho__titulo">Sistema Contagem | V2</h2>
         </header>
         
-        <img class="left-login-image" src="./src/img/astronaut-suit-animate.svg" alt="Astronauta animação">
-        
-    
-        <div class="right-login">
-    
-            <main class="container__home">
-                <h2 class="formulario__titulo">Seja bem Vindo ao Sistema!</h2>
+        <div class="login-wrapper">
+            <img class="left-login-image" src="./src/img/astronaut-suit-animate.svg" alt="Astronauta animação">
+            <div class="right-login">
+                <main class="container__home">
+                    <h2 class="formulario__titulo">Bem Vindo ao Sistema!</h2>
                     <form class="formulario__login">
-                    <br>
                         <fieldset>
-                        <legend>Login</legend>
-                        <br>
-                        <div class="inputBox">
-                        <input type="text" name="username" id="username" class="inputUser" required>
-                        <label for="username" class="labelInput">Usuario: </label>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="inputBox">
-                        <input type="password" name="senha" id="senha" class="inputUser" required>
-                        <label for="senha" class="labelInput">Senha: </label>
-                        </div>
-                        <br>
-                        <br>
-                </fieldset>
-                </form>
-                <br>
-                <button class="btn-login" onclick="logar()">Login</button>
-                <br>
-                <br>
-                <p class="container__texto">Utilize as seguintes credenciais para ter acesso: <br><br> USERNAME: admin@admin.com / SENHA: 123</p>
-            </main>
-
+                            <legend>Login</legend>
+                            <div class="inputBox">
+                                <input type="text" name="username" id="username" class="inputUser" required>
+                                <label for="username" class="labelInput">Usuário: </label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" name="senha" id="senha" class="inputUser" required>
+                                <label for="senha" class="labelInput">Senha: </label>
+                            </div>
+                        </fieldset>
+                        <button type="button" class="btn-login" onclick="logar()">Login</button>
+                    </form>
+                </main>
+            </div>
         </div>
     </div>
-        
+
     <footer class="rodape">
-        <p class="rodape__texto">Todos os direitos reservados! Patrick Caramico &copy; 2023</p>
+        <p class="rodape__texto">Todos os direitos reservados! Patrick Caramico &copy; 2024</p>
         <a href="https://github.com/PatrickCaramico" class="rodape__imagem">
-          <img src="./src/img/github.svg" alt="Acesse meu Github">
-        </a>
-        <a href="https://www.linkedin.com/in/PatrickCaramico/" class="rodape__imagem">
-          <img src="./src/img/linkedin.svg" alt="Acesse meu LinkedIn">
+            <img src="./src/img/github.svg" alt="Acesse meu Github">
         </a>
     </footer>
 
