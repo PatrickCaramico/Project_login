@@ -1,30 +1,71 @@
-.container__geral {
-    min-height: calc(100vh - 100px);
-    background: var(--Cor-fundo2);
+:root {
+    --Cor-fundo2: #282c34;
+    --cor-fundo-principal: linear-gradient(to right, rgb(0, 92,197), rgb(90, 20, 220));
 }
 
-.right-login{
-    /* width: 50vh; */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content:  center;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-fundo-principal);
+}
+
+.container__geral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.left-login-image{
-    width: 39rem;
+.cabecalho {
     position: absolute;
-    left: 60px;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cabecalho__titulo {
+    color: white;
+    margin: 0;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.left-login-image {
+    width: 300px;
+    max-width: 100%;
+}
+
+.right-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .container__home {
-    position: absolute;
-    top: 20%;
-    right: 20%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
-    width: 25%;
     color: white;
+    max-width: 400px;
+    width: 100%;
 }
 
 .container__home > h2 {
@@ -34,6 +75,7 @@
 fieldset {
     border: 3px solid dodgerblue;
     padding: 10px;
+    border-radius: 8px;
 }
 
 legend {
@@ -46,6 +88,7 @@ legend {
 
 .inputBox {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .inputUser {
@@ -82,33 +125,47 @@ legend {
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container__texto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.rodape__texto {
+    color: white;
+    margin: 0;
+}
+
+.rodape__imagem {
+    margin: 0 10px;
+}
+
+.rodape__imagem img {
+    width: 24px;
 }
 
 @media (max-width: 800px) {
-    .container__geral {
-        min-height: auto;
-        padding: 20px; /* Aumente o preenchimento para dispositivos móveis */
-    }
-
-    .right-login {
-        flex-direction: column; /* Coluna em vez de linha para dispositivos móveis */
-        align-items: center;
+    .login-wrapper {
+        flex-direction: column;
     }
 
     .left-login-image {
-        width: 100%; /* Use a largura máxima para dispositivos móveis */
-        position: static; /* Remova a posição absoluta */
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .container__home {
-        position: static; /* Remova a posição absoluta */
-        width: 100%; /* Use a largura máxima */
-        right: auto; /* Remova o alinhamento à direita */
-        padding: 20px; /* Aumente o preenchimento para dispositivos móveis */
-        top: auto; /* Remova a posição superior */
-    }
-
-    fieldset {
-        padding: 15px; /* Ajuste o preenchimento */
+        width: 100%;
     }
 }
