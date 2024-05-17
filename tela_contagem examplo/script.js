@@ -87,7 +87,12 @@ function updateCountdown() {
 function showMessage() {
     messageDiv.style.display = "block";
     playSound(); // Adicione a reprodução do som ao mostrar a mensagem
+    setTimeout(function() {
+        alert("O tempo acabou! 😓");
+        hideMessage(); // Esconder a mensagem após o usuário clicar no alerta
+    }, 100); // Tempo de espera para garantir que o alerta apareça após a mensagem
 }
+
 
 function hideMessage() {
     messageDiv.style.display = "none";
