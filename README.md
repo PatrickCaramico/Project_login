@@ -2,6 +2,8 @@
 
 <p>Login screen project with countdown..</p>
 
+<strong>Update V.2</strong>
+
 ## Readme Contents: 
  - [Summary](#summary)
      - [About the project](#about)
