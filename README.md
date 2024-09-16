@@ -1,14 +1,14 @@
-# ClickTime
+# Project_login
 
-<p>ClickTime é um sistema de contagem regressiva que permite aos usuários agendar eventos e monitorar o tempo restante para esses eventos. A partir de um usuario e senha que são armazenados na localstorage</p>
+<p>Login screen project with countdown..</p>
 
-<strong>Update V.3</strong>
+<strong>Update V.2</strong>
 
 ## Readme Contents: 
  - [Summary](#summary)
      - [About the project](#about)
      - [Screenshot](#screenshot)
-     - [Preview](#preview)
+     - [preview](#preview)
  - [My Code](#codes)
       - [HTML](#html)
       - [CSS](#css)
@@ -17,65 +17,64 @@
       - [Designed](#designed)
       - [Learned](#learned)
 - [Autor](#autor)
-      - [Link](#link)
+      - [link](#link)
 
-## Summary
+## summary
 
-### About
-<p>A ideia do projeto ClickTime é criar um sistema de contagem regressiva que permite que os usuários se cadastrem, façam login e monitorem o tempo restante para eventos agendados. A versão 3 introduz a verificação do nome de usuário no cadastro, garantindo que não haja duplicatas. Além disso, um alerta é exibido ao carregar a página de login, informando ao usuário como proceder.</p>
+### about
+<p>The project's idea was to create a login screen, where the user provides a valid email and password. After that, the system will approve the entry and redirect the user to another page, which in this case would be the updated countdown screen, as a test for a future project. On this countdown screen, there is a button to go back and a button to change the theme. The countdown system has been updated, and now, when it reaches the final time, the system resets the countdown, plays a sound, and displays a message to the end user.</p>
 
-### Screenshot
+### screenshot
 
 <img src="imagens projeto/Tela Inicio.png" align="left" height="500px"/>
 <img src="imagens projeto/Verificação.png" aligh="right" height="500px"/>
 
-### Preview
+### preview
 
-<img src="imagens projeto/Sistema V3.gif"/>
+<img src="imagens projeto/Sistema V2.gif"/>
 
-## My Code
+## My code
 
-### Codes
+### codes
 
 ### HTML
 
-<p>Código HTML</p>
+<p>Code HTML</p>
 <img align="center" src="imagens projeto/HTML.png" width="900px"/>
 
 ### CSS
 
-<p>Código CSS</p>
+<p>Code CSS</p>
 <img align="center" src="imagens projeto/CSS.png" width="900px"/>
 
-### Javascript
+### javascript
 
-<p>Código Javascript</p>
+<p>Code Javascript</p>
 <img align="center" src="imagens projeto/Javascript.png" width="900px"/>
 
 ## Process
 
-### Designed
+### designed
 
-- Semântica HTML;
-- Prioridades CSS;
+- Semantic HTML;
+- CSS priorities;
 - Flexbox;
-- Funções JavaScript;
-- Contagem regressiva.
+- Javascript functions;
+- Countdown.
 
-### Learned
+### learned
 
-🟢 Validação do formulário de cadastro; <br>
-🟢 Implementação de alertas e verificações de nome de usuário; <br>
-🟢 Contagem regressiva. <br>
+🟢 Valide a simple login form; <br>
+🟢 Countdown <br>
 
 ## Autor
 
-### Autor
+### autor
 
 [![linkedin Badge](https://img.shields.io/badge/Patrick%20Caramico-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&Linkedin&logoColor=white&link=https://www.linkedin.com/in/patrickcaramico)](https://www.linkedin.com/in/patrickcaramico/)
 [![Twitter Badge](https://img.shields.io/badge/Caramico%20Patrick-0077B5?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/CaramicoPatrick)](https://twitter.com/CaramicoPatrick)
 
-### Link
+### link
 
-**Link para acessar o projeto:**
+**Link to acess the project:**
 https://sistema-alphav2.netlify.app/index.html
